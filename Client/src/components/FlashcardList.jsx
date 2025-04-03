@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react';
 
 import axios from 'axios';
 
-const Flashcardlist = () => {
+const FlashcardList = () => {
     const [flashcards, setFlashcards] = useState ([]);
 
     useEffect(() => {
